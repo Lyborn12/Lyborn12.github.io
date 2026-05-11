@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VioletTech Solutions — Microsoft Power Platform Consultancy</title>
+  <meta name="description" content="VioletTech Solutions is a Microsoft Power Platform consultancy specialising in Power Apps, Power Automate, Power BI, Dynamics 365, and Copilot Studio. Based in South Africa, serving global clients." />
+  <meta name="keywords" content="Power Platform, Power Apps, Power Automate, Power BI, Dynamics 365, Microsoft consultancy, South Africa, freelance, Copilot Studio" />
+  <meta property="og:title" content="VioletTech Solutions" />
+  <meta property="og:description" content="Microsoft Power Platform consultancy — orbit your industry, outpace it." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════ NAV ═══════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <svg width="36" height="36" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <rect width="120" height="120" rx="20" fill="#0F172A"/>
+          <circle cx="60" cy="60" r="42" fill="none" stroke="#7C3AED" stroke-width="2" opacity="0.4"/>
+          <circle cx="60" cy="60" r="27" fill="none" stroke="#7C3AED" stroke-width="2" opacity="0.75"/>
+          <circle cx="60" cy="60" r="11" fill="#7C3AED"/>
+          <circle cx="102" cy="60" r="5" fill="#2DD4BF"/>
+          <circle cx="60" cy="18" r="5" fill="#2DD4BF"/>
+        </svg>
+        <span class="nav-logo-text"><span class="violet">Violet</span><span class="teal">Tech</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Insights</a></li>
+        <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Microsoft Power Platform Consultancy · Johannesburg, SA
+      </div>
+      <h1 class="hero-title">
+        We build <em>intelligent</em><br/>
+        Microsoft solutions<br/>
+        <span class="hero-title-accent">that scale globally.</span>
+      </h1>
+      <p class="hero-subtitle">
+        VioletTech Solutions designs and delivers enterprise-grade Power Platform systems — from Canvas Apps and automated workflows to AI-powered portals — for clients across South Africa, Australia, the UK, and the US.
+      </p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+        <a href="#contact" class="btn btn-ghost">Start a Project →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Microsoft certifications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Portfolio projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Countries served</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-orbit-visual">
+      <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" class="orbit-svg">
+        <circle cx="200" cy="200" r="160" fill="none" stroke="#7C3AED" stroke-width="0.8" opacity="0.2"/>
+        <circle cx="200" cy="200" r="120" fill="none" stroke="#7C3AED" stroke-width="0.8" opacity="0.3"/>
+        <circle cx="200" cy="200" r="80" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.5"/>
+        <circle cx="200" cy="200" r="40" fill="none" stroke="#7C3AED" stroke-width="1.5" opacity="0.8"/>
+        <circle cx="200" cy="200" r="16" fill="#7C3AED"/>
+        <!-- Orbit dots -->
+        <circle cx="360" cy="200" r="7" fill="#2DD4BF" class="orbit-dot-1"/>
+        <circle cx="200" cy="40" r="7" fill="#2DD4BF" class="orbit-dot-2"/>
+        <circle cx="110" cy="131" r="5" fill="#8B5CF6" class="orbit-dot-3"/>
+        <circle cx="290" cy="131" r="4" fill="#2DD4BF" opacity="0.6" class="orbit-dot-4"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SERVICES ═══════════════════════ -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Do</span>
+        <h2>Microsoft Power Platform,<br/><em>end to end.</em></h2>
+        <p>We cover the full Microsoft low-code stack — from ideation and architecture through to deployment, training, and ongoing support.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
+          </div>
+          <h3>Power Apps</h3>
+          <p>Custom Canvas and Model-Driven applications tailored to your business processes. Tablet, mobile, and desktop — all from a single build.</p>
+          <ul class="service-tags">
+            <li>Canvas Apps</li><li>Model-Driven</li><li>Dataverse</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Power Automate</h3>
+          <p>Eliminate repetitive tasks with intelligent automation flows. Approval chains, notifications, data sync, and scheduled processing — all automated.</p>
+          <ul class="service-tags">
+            <li>Cloud Flows</li><li>Approvals</li><li>Integrations</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Power BI</h3>
+          <p>Turn raw data into decision-ready dashboards. Interactive reports with real-time refresh, row-level security, and executive-ready visuals.</p>
+          <ul class="service-tags">
+            <li>Dashboards</li><li>DAX</li><li>Data Modelling</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h3>Power Pages</h3>
+          <p>External-facing web portals connected directly to your Dataverse data. Vendor portals, client self-service, and public intake forms — all secure and branded.</p>
+          <ul class="service-tags">
+            <li>Web Portals</li><li>Web API</li><li>Authentication</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/><circle cx="19" cy="5" r="3"/></svg>
+          </div>
+          <h3>Copilot Studio & AI Builder</h3>
+          <p>Embed AI directly into your workflows. Custom copilots, document processing, sentiment analysis, and intelligent form recognition — built on Microsoft AI.</p>
+          <ul class="service-tags">
+            <li>Copilot Studio</li><li>AI Builder</li><li>GPT Integration</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Dynamics 365 & CRM</h3>
+          <p>Sales pipelines, customer service, and business process flows on Dynamics 365. Full configuration, custom entities, and integration with Power Platform.</p>
+          <ul class="service-tags">
+            <li>D365 Sales</li><li>BPF Design</li><li>Configuration</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="services-footer">
+        <p>Also offer: <strong>Retainer support packages</strong> · <strong>Staff training</strong> · <strong>Environment governance</strong> · <strong>Microsoft 365 setup</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ PORTFOLIO ═══════════════════════ -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Work</span>
+        <h2>Built with the full<br/><em>Power Platform stack.</em></h2>
+        <p>Every project below is a live, working system — not a mockup. Click to explore the details.</p>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card portfolio-card--featured">
+          <div class="portfolio-card-header">
+            <div class="portfolio-tags">
+              <span class="ptag">Power Pages</span>
+              <span class="ptag">Power Automate</span>
+              <span class="ptag">Power BI</span>
+              <span class="ptag ptag--live">Live Demo</span>
+            </div>
+            <span class="portfolio-num">01</span>
+          </div>
+          <h3>Invoice Management System</h3>
+          <p>A full-stack invoice management platform built across all six Power Platform components. Includes a vendor-facing Power Pages portal, automated approval flows, real-time Power BI reporting, and a Canvas App for internal teams.</p>
+          <div class="portfolio-tech">
+            <span>Dataverse</span><span>Canvas App</span><span>Model-Driven App</span><span>Power Pages</span><span>Power Automate</span><span>Power BI</span>
+          </div>
+          <a href="https://vendorinvoice.powerappsportals.com" target="_blank" rel="noopener" class="portfolio-link">View Live Portal →</a>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <div class="portfolio-tags">
+              <span class="ptag">Copilot Studio</span>
+              <span class="ptag">AI Builder</span>
+            </div>
+            <span class="portfolio-num">02</span>
+          </div>
+          <h3>AI-Powered HR Onboarding Hub</h3>
+          <p>An intelligent HR onboarding and employee experience platform. Features a Copilot Studio AI assistant, document automation via AI Builder, Power Pages employee portal, and a management dashboard in Power BI.</p>
+          <div class="portfolio-tech">
+            <span>Dataverse</span><span>Copilot Studio</span><span>AI Builder</span><span>Canvas App</span><span>Power Pages</span><span>Power BI</span>
+          </div>
+          <a href="#contact" class="portfolio-link">Request Demo →</a>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <div class="portfolio-tags">
+              <span class="ptag">Dynamics 365</span>
+              <span class="ptag">Power Automate</span>
+            </div>
+            <span class="portfolio-num">03</span>
+          </div>
+          <h3>Dynamics 365 Sales CRM</h3>
+          <p>A configured Dynamics 365 Sales CRM for an IT consultancy's outbound sales process. Includes a 6-stage Business Process Flow, lead-to-close pipeline, automated follow-up flows, and territory management.</p>
+          <div class="portfolio-tech">
+            <span>Dynamics 365 Sales</span><span>BPF</span><span>Power Automate</span><span>Custom Entities</span>
+          </div>
+          <a href="#contact" class="portfolio-link">Request Demo →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ PRICING ═══════════════════════ -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pricing</span>
+        <h2>Transparent packages.<br/><em>No hidden surprises.</em></h2>
+        <p>Choose a package that fits your project scope, or contact us for a custom quote. All prices in USD for international clients — ZAR available for South African clients.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card">
+          <div class="pricing-tier">Starter</div>
+          <div class="pricing-price">$500 <span>/ project</span></div>
+          <p class="pricing-desc">For small businesses needing a single focused solution — one app, one flow, or one dashboard.</p>
+          <ul class="pricing-features">
+            <li>Single Power Platform component</li>
+            <li>Up to 3 Dataverse tables</li>
+            <li>1 round of revisions</li>
+            <li>2 weeks delivery</li>
+            <li>Basic documentation</li>
+            <li>1-week post-launch support</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Started</a>
+        </div>
+
+        <div class="pricing-card pricing-card--featured">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-tier">Professional</div>
+          <div class="pricing-price">$1,500 <span>/ project</span></div>
+          <p class="pricing-desc">Full Power Platform solution with multiple components, automation, and reporting — ideal for SMEs.</p>
+          <ul class="pricing-features">
+            <li>Up to 4 Power Platform components</li>
+            <li>Full Dataverse schema design</li>
+            <li>Power Automate flows included</li>
+            <li>Power BI dashboard</li>
+            <li>2 rounds of revisions</li>
+            <li>4 weeks delivery</li>
+            <li>Full technical documentation</li>
+            <li>1-month post-launch support</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pricing-tier">Enterprise</div>
+          <div class="pricing-price">Custom <span>/ quote</span></div>
+          <p class="pricing-desc">Complex, multi-system solutions with AI integration, Dynamics 365, and ongoing support retainers.</p>
+          <ul class="pricing-features">
+            <li>Full Power Platform stack</li>
+            <li>Copilot Studio / AI Builder</li>
+            <li>Dynamics 365 configuration</li>
+            <li>Power Pages portals</li>
+            <li>Unlimited revisions</li>
+            <li>Dedicated project timeline</li>
+            <li>Staff training included</li>
+            <li>Ongoing retainer available</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get a Quote</a>
+        </div>
+
+      </div>
+
+      <p class="pricing-note">💡 South African clients: ZAR pricing available. International clients billed in USD via PayPal, Wise, or direct transfer. Hourly rate available at $55/hr USD for smaller tasks.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+  <section class="section about" id="about">
+    <div class="container about-inner">
+      <div class="about-visual">
+        <div class="about-card">
+          <div class="about-avatar">LN</div>
+          <div class="about-certs">
+            <span class="cert">PL-900</span>
+            <span class="cert">PL-200</span>
+            <span class="cert">PL-300</span>
+            <span class="cert">PL-400</span>
+            <span class="cert">PL-500</span>
+            <span class="cert">PL-600</span>
+          </div>
+          <p class="about-cert-label">Microsoft Power Platform Certified</p>
+        </div>
+        <div class="about-tags-float">
+          <span>Johannesburg, SA</span>
+          <span>BSc Computer Science</span>
+          <span>Available Globally</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-tag">About VioletTech</span>
+        <h2>Built by a specialist.<br/><em>Backed by Microsoft.</em></h2>
+        <p>VioletTech Solutions is a registered technology consultancy founded by <strong>Lyborn Nemo</strong>, a Microsoft Power Platform specialist based in Johannesburg, South Africa, holding the complete Power Platform certification stack — PL-900 through PL-600.</p>
+        <p>With a BSc in Computer Science and hands-on experience building production systems across Power Apps, Power Automate, Power BI, Power Pages, Copilot Studio, and Dynamics 365, VioletTech delivers the technical depth of an enterprise consultancy with the agility of a specialist partner.</p>
+        <p>We serve clients across South Africa, Australia, the United Kingdom, and the United States — remotely and on-site — bringing Microsoft-certified expertise to organisations of all sizes.</p>
+        <div class="about-links">
+          <a href="https://www.linkedin.com/in/lyborn-nemo" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn Profile →</a>
+          <a href="#contact" class="btn btn-ghost">Work With Us →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ BLOG ═══════════════════════ -->
+  <section class="section blog" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Insights</span>
+        <h2>Thinking on Microsoft,<br/><em>Power Platform & AI.</em></h2>
+        <p>Practical articles on building real Power Platform solutions — no fluff, no theory-only content.</p>
+      </div>
+      <div class="blog-grid">
+
+        <article class="blog-card blog-card--featured">
+          <div class="blog-meta"><span class="blog-tag">Power Pages</span><span class="blog-date">Coming soon</span></div>
+          <h3>How to fix Power Pages Web API authentication — the complete guide</h3>
+          <p>The Web API in Power Pages breaks in subtle ways that Microsoft's documentation doesn't clearly explain. Here's everything you need to know about Site Settings, Table Permissions, and Entra ID authentication setup.</p>
+          <a href="#" class="blog-link">Read article →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-meta"><span class="blog-tag">Power Automate</span><span class="blog-date">Coming soon</span></div>
+          <h3>Condition logic in Power Automate: why inv_status beats statecode</h3>
+          <p>A subtle but critical distinction when filtering on Dataverse choice columns in flow conditions.</p>
+          <a href="#" class="blog-link">Read article →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-meta"><span class="blog-tag">AI Builder</span><span class="blog-date">Coming soon</span></div>
+          <h3>Building an AI-powered onboarding system with Copilot Studio</h3>
+          <p>Step-by-step walkthrough of the HR Onboarding Hub — from Dataverse schema through to the AI assistant deployment.</p>
+          <a href="#" class="blog-link">Read article →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-meta"><span class="blog-tag">Career</span><span class="blog-date">Coming soon</span></div>
+          <h3>How to land international Microsoft Power Platform contracts from South Africa</h3>
+          <p>The platforms, the pitch, the portfolio — what actually works for getting AU, UK, and US clients as a SA-based specialist.</p>
+          <a href="#" class="blog-link">Read article →</a>
+        </article>
+
+      </div>
+      <div class="blog-footer">
+        <p>Articles launching soon. <a href="#contact">Subscribe for updates →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="section-tag">Contact</span>
+        <h2>Let's build<br/><em>something great.</em></h2>
+        <p>Whether you're a business looking to modernise your processes, a Microsoft partner needing a contractor, or a recruiter with an international opportunity — get in touch.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:nemolyborn@gmail.com">nemolyborn@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <a href="https://www.linkedin.com/in/lyborn-nemo" target="_blank" rel="noopener">linkedin.com/in/lyborn-nemo</a>
+          </div>
+          <div class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Johannesburg, South Africa · Available globally (Remote)</span>
+          </div>
+        </div>
+        <div class="contact-availability">
+          <span class="avail-dot"></span>
+          Available for new projects — local and international
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="company">Company / Organisation</label>
+            <input type="text" id="company" name="company" placeholder="Acme Corp" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="jane@acmecorp.com" required />
+        </div>
+        <div class="form-group">
+          <label for="type">Enquiry type</label>
+          <select id="type" name="type">
+            <option value="">Select one...</option>
+            <option>Project — Power Apps</option>
+            <option>Project — Power Automate</option>
+            <option>Project — Power BI</option>
+            <option>Project — Full Platform</option>
+            <option>Project — AI / Copilot Studio</option>
+            <option>Contract / Freelance opportunity</option>
+            <option>International job opportunity</option>
+            <option>Retainer / Ongoing support</option>
+            <option>General enquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" rows="5" placeholder="Briefly describe what you need, your timeline, and your country / timezone..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send Message →</button>
+        <p class="form-note">We respond within 24 hours. For urgent projects, email directly.</p>
+        <div id="formSuccess" class="form-success" style="display:none">
+          ✓ Message sent! We'll be in touch within 24 hours.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo">
+          <svg width="28" height="28" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" rx="20" fill="#0F172A"/>
+            <circle cx="60" cy="60" r="42" fill="none" stroke="#7C3AED" stroke-width="2" opacity="0.4"/>
+            <circle cx="60" cy="60" r="27" fill="none" stroke="#7C3AED" stroke-width="2" opacity="0.75"/>
+            <circle cx="60" cy="60" r="11" fill="#7C3AED"/>
+            <circle cx="102" cy="60" r="5" fill="#2DD4BF"/>
+            <circle cx="60" cy="18" r="5" fill="#2DD4BF"/>
+          </svg>
+          <span class="nav-logo-text"><span class="violet">Violet</span><span class="teal">Tech</span> <span class="footer-solutions">Solutions</span></span>
+        </a>
+        <p>Microsoft Power Platform consultancy.<br/>Johannesburg, South Africa · Serving global clients.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Power Apps</a></li>
+            <li><a href="#services">Power Automate</a></li>
+            <li><a href="#services">Power BI</a></li>
+            <li><a href="#services">Power Pages</a></li>
+            <li><a href="#services">Copilot Studio</a></li>
+            <li><a href="#services">Dynamics 365</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Insights</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/lyborn-nemo" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://vendorinvoice.powerappsportals.com" target="_blank" rel="noopener">Live Demo Portal</a></li>
+            <li><a href="mailto:nemolyborn@gmail.com">Email Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 VioletTech Solutions. Registered company, South Africa.</p>
+        <p>Microsoft, Power Platform, and related marks are trademarks of Microsoft Corporation.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
